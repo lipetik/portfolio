@@ -1,0 +1,131 @@
+% Created 2021-09-24 sex 11:14
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Filipe Gonçalves Jacinto}
+\date{\today}
+\title{Decomposição elétrica do TiS3 em condições ambientais}
+\hypersetup{
+ pdfauthor={Filipe Gonçalves Jacinto},
+ pdftitle={Decomposição elétrica do TiS3 em condições ambientais},
+ pdfkeywords={},
+ pdfsubject={Projeto que mostra que a perda de Enxofre(S) desempenha um papel importante na decomposição elétrica do TiS3 em condições ambientais},
+ pdfcreator={Emacs 27.2 (Org mode 9.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+
+\section{Introdução:}
+\label{sec:org636aef8}
+\subsection{Pontos positivos do TiS3:}
+\label{sec:org235eae6}
+\begin{itemize}
+\item Possível substituto do Silício
+\item Bandgap de 1.0 eV
+\item Pode ser isolado em monocamada e nanotubos
+\end{itemize}
+\subsection{Problema do paper: Calcular a decomposição elétrica do TiS3}
+\label{sec:orgebbe8f3}
+\subsubsection{Resultados:}
+\label{sec:orgb670691}
+\begin{itemize}
+\item A decomposição elétrica é causada tanto por efeito Joule
+\item A decomposição elétrica também é causada por formação de vacâncias , mesmo que a energia de ativação da reação seja alta para um único átomo de S
+\item O teste com atmosfera rica em Oxigênio mostra que a energia de formação de defeitos cai significativamente quando se retira uma dupla de átomos SO comparado a um átomo de S sozinho
+\item DFT + Monte Carlo cinético sugerem que a formação de vacâncias é devida à oxidação do material seguida da dessorção dos átomos de enxofre
+\end{itemize}
+
+
+\section{Estrutura do código:}
+\label{sec:orga90337a}
+
+\subsection{Funcoes.py}
+\label{sec:org72a91e7}
+\subsubsection{Gamma:}
+\label{sec:org035e9f3}
+\begin{itemize}
+\item Faz o cálculo de Gamma[i] cálculo de Gamma
+\item \(\Gamma\)
+\end{itemize}
+\subsubsection{R\textsubscript{sum}:}
+\label{sec:org1910e1c}
+\begin{itemize}
+\item Cálcula R\textsubscript{i}[i]
+\item Soma os termos de R\textsubscript{i}[i]
+\end{itemize}
+\subsubsection{Probable\textsubscript{event}:}
+\label{sec:orgcea480e}
+\subsubsection{Time\textsubscript{foward}:}
+\label{sec:org98e5ec4}
+\begin{itemize}
+\item Cálcula o time\textsubscript{step} (intervalo do evento) e o adiciona ao contador de tempo(t)
+\end{itemize}
+
+\subsection{Main.py:}
+\label{sec:org90f0d1c}
+\begin{itemize}
+\item Este código é dividido em três partes:
+\begin{enumerate}
+\item A primeira parte declara as variáveis e arrays necessários nesse algoritmo em específicos:
+
+\begin{itemize}
+\item \textbf{Variáveis}
+\begin{itemize}
+\item gamma\textsubscript{zero}
+\item temperatura
+\item t (tempo)
+\end{itemize}
+\item \textbf{Arrays}
+\begin{itemize}
+\item Delta (energias de ativação)
+\item N (número de particulas que realizaram o evento )
+\end{itemize}
+\item \textbf{Empty Arrays}
+\begin{itemize}
+\item time (armazena os tempos calculados em cada iteração)
+\item rate (armazera a soma R\textsubscript{n} ao longo do tempo)
+\end{itemize}
+\end{itemize}
+
+\item Esta parte é onde está estruturado a ordem do algoritmo utilizando as funções definidas em Funcoes.py
+
+\begin{itemize}
+\item O algoritmo segue a seguinte forma:
+\begin{enumerate}
+\item \textbf{Gamma()} , calcula gamma
+\item For in range(numero de iterações necessárias)
+\begin{itemize}
+\item Lista de eventos dentro do for:
+\begin{enumerate}
+\item \textbf{R\textsubscript{sum}()}
+\item \textbf{Probable Event()}
+\item \textbf{Time Foward}
+\item Adicionamos o termo no array de \textbf{time}
+\item Adicionamos o termo no array de \textbf{rate}
+\end{enumerate}
+\end{itemize}
+\end{enumerate}
+\end{itemize}
+\item A parte final do algoritmo consiste em plotar/calcular quantidades que ajudem a compreender o problema :
+\begin{enumerate}
+\item Plot de gráfico utilzando o pacote matplotlib
+\end{enumerate}
+\end{enumerate}
+\end{itemize}
+\end{document}

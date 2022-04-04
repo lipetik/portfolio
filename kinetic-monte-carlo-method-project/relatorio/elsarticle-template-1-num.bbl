@@ -1,0 +1,40 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Incollection
+\bibitem[{Geim and Novoselov(2010)}]{geim2010rise}
+\bibinfo{author}{A.~K. Geim}, \bibinfo{author}{K.~S. Novoselov},
+\newblock \bibinfo{title}{The rise of graphene},
+\newblock in: \bibinfo{booktitle}{Nanoscience and technology: a collection of
+  reviews from nature journals}, \bibinfo{publisher}{World Scientific},
+  \bibinfo{year}{2010}, pp. \bibinfo{pages}{11--19}.
+%Type = Article
+\bibitem[{Molina-Mendoza et~al.(2017)Molina-Mendoza, Island, Paz, Clamagirand,
+  Ares, Flores, Leardini, S{\'a}nchez, Agra{\"\i}t, Rubio-Bollinger
+  et~al.}]{molina2017high}
+\bibinfo{author}{A.~J. Molina-Mendoza}, \bibinfo{author}{J.~O. Island},
+  \bibinfo{author}{W.~S. Paz}, \bibinfo{author}{J.~M. Clamagirand},
+  \bibinfo{author}{J.~R. Ares}, \bibinfo{author}{E.~Flores},
+  \bibinfo{author}{F.~Leardini}, \bibinfo{author}{C.~S{\'a}nchez},
+  \bibinfo{author}{N.~Agra{\"\i}t}, \bibinfo{author}{G.~Rubio-Bollinger},
+  et~al.,
+\newblock \bibinfo{title}{High current density electrical breakdown of tis3
+  nanoribbon-based field-effect transistors},
+\newblock \bibinfo{journal}{Advanced Functional Materials} \bibinfo{volume}{27}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{1605647}.
+%Type = Article
+\bibitem[{Giannozzi et~al.(2009)Giannozzi, Baroni, Bonini, Calandra, Car,
+  Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo
+  et~al.}]{giannozzi2009quantum}
+\bibinfo{author}{P.~Giannozzi}, \bibinfo{author}{S.~Baroni},
+  \bibinfo{author}{N.~Bonini}, \bibinfo{author}{M.~Calandra},
+  \bibinfo{author}{R.~Car}, \bibinfo{author}{C.~Cavazzoni},
+  \bibinfo{author}{D.~Ceresoli}, \bibinfo{author}{G.~L. Chiarotti},
+  \bibinfo{author}{M.~Cococcioni}, \bibinfo{author}{I.~Dabo}, et~al.,
+\newblock \bibinfo{title}{Quantum espresso: a modular and open-source software
+  project for quantum simulations of materials},
+\newblock \bibinfo{journal}{Journal of physics: Condensed matter}
+  \bibinfo{volume}{21} (\bibinfo{year}{2009}) \bibinfo{pages}{395502}.
+
+\end{thebibliography}

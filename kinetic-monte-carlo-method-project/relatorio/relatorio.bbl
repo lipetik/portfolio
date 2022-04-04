@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{geim2010rise}
+A.~K. Geim and K.~S. Novoselov, ``The rise of graphene,'' in {\em Nanoscience
+  and technology: a collection of reviews from nature journals}, pp.~11--19,
+  World Scientific, 2010.
+
+\bibitem{molina2017high}
+A.~J. Molina-Mendoza, J.~O. Island, W.~S. Paz, J.~M. Clamagirand, J.~R. Ares,
+  E.~Flores, F.~Leardini, C.~S{\'a}nchez, N.~Agra{\"\i}t, G.~Rubio-Bollinger,
+  {\em et~al.}, ``High current density electrical breakdown of tis3
+  nanoribbon-based field-effect transistors,'' {\em Advanced Functional
+  Materials}, vol.~27, no.~13, p.~1605647, 2017.
+
+\bibitem{giannozzi2009quantum}
+P.~Giannozzi, S.~Baroni, N.~Bonini, M.~Calandra, R.~Car, C.~Cavazzoni,
+  D.~Ceresoli, G.~L. Chiarotti, M.~Cococcioni, I.~Dabo, {\em et~al.}, ``Quantum
+  espresso: a modular and open-source software project for quantum simulations
+  of materials,'' {\em Journal of physics: Condensed matter}, vol.~21, no.~39,
+  p.~395502, 2009.
+
+\end{thebibliography}

@@ -1,0 +1,59 @@
+#+TITLE:Decomposição elétrica do TiS3 em condições ambientais
+#+DESCRIPTION:Projeto que mostra que a perda de Enxofre(S) desempenha um papel importante na decomposição elétrica do TiS3 em condições ambientais
+#+AUTHOR: Filipe Gonçalves Jacinto
+
+
+* Introdução:
+** Pontos positivos do TiS3:
+- Possível substituto do Silício
+- Bandgap de 1.0 eV
+- Pode ser isolado em monocamada e nanotubos
+** Problema do paper: Calcular a decomposição elétrica do TiS3
+*** Resultados:
+- A decomposição elétrica é causada tanto por efeito Joule
+- A decomposição elétrica também é causada por formação de vacâncias , mesmo que a energia de ativação da reação seja alta para um único átomo de S
+- O teste com atmosfera rica em Oxigênio mostra que a energia de formação de defeitos cai significativamente quando se retira uma dupla de átomos SO comparado a um átomo de S sozinho
+- DFT + Monte Carlo cinético sugerem que a formação de vacâncias é devida à oxidação do material seguida da dessorção dos átomos de enxofre
+
+
+* Estrutura do código:
+
+** Funcoes.py
+*** Gamma:
++ Faz o cálculo de Gamma[i] cálculo de Gamma
++ $\Gamma$
+*** R_sum:
++ Cálcula R_i[i]
++ Soma os termos de R_i[i]
+*** Probable_event:
+*** Time_foward:
++ Cálcula o time_step (intervalo do evento) e o adiciona ao contador de tempo(t)
+
+** Main.py:
+ - Este código é dividido em três partes:
+   1. A primeira parte declara as variáveis e arrays necessários nesse algoritmo em específicos:
+
+      + *Variáveis*
+        - gamma_zero
+        - temperatura
+        - t (tempo)
+      + *Arrays*
+        - Delta (energias de ativação)
+        - N (número de particulas que realizaram o evento )
+      + *Empty Arrays*
+        - time (armazena os tempos calculados em cada iteração)
+        - rate (armazera a soma R_n ao longo do tempo)
+
+   2. Esta parte é onde está estruturado a ordem do algoritmo utilizando as funções definidas em Funcoes.py
+
+      + O algoritmo segue a seguinte forma:
+        1. *Gamma()* , calcula gamma
+        2. For in range(numero de iterações necessárias)
+           + Lista de eventos dentro do for:
+             1. *R_sum()*
+             2. *Probable Event()*
+             3. *Time Foward*
+             4. Adicionamos o termo no array de *time*
+             5. Adicionamos o termo no array de *rate*
+   3. A parte final do algoritmo consiste em plotar/calcular quantidades que ajudem a compreender o problema :
+      1. Plot de gráfico utilzando o pacote matplotlib
