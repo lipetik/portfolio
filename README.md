@@ -1,5 +1,7 @@
 # Portfolio
+
 **Este repositório é para mostrar os alguns dos projetos em Python desenvolvidos por mim nos últimos anos.**
+**This repository is to show some of the Python projects developed by me in the last few years.**
 
 ## Lista de projetos ##
 * DFT-scripits : são alguns scripts em python3 para ajudar na análise dos resultados produzidos pelo pacote Quantum Espresso(pacote para simulação computacional em materiais 2D);
@@ -9,7 +11,7 @@
 * variational-method-project : Implementação do Método variacional para resolver o Oscilador Harmônico e o modelo de Kronig-Penney .
 
 
-**This repository is to show some of the Python projects developed by me in the last few years.**
+
 
 ## Project list ##
 * DFT-scripits : this are some scripts in python3 to help in the analysis of the results produced by the Quantum Espresso package that is a package used to simulate and predict properties of 2D materials);
