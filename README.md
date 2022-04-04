@@ -1,6 +1,7 @@
 # Portfolio
 
 **Este repositório é para mostrar os alguns dos projetos em Python desenvolvidos por mim nos últimos anos.**
+
 **This repository is to show some of the Python projects developed by me in the last few years.**
 
 ## Lista de projetos ##
