@@ -11,7 +11,7 @@
 * [<ins>kinetic-monte-carlo-method-project</ins>](https://github.com/lipetik/portfolio/tree/main/kinetic-monte-carlo-method-project) : Implementação do método de monte carlo cinético em Python3 para estudar o fenômeno de decomposição elétrica no TiS3;
 * [<ins>variational-method-project</ins>](https://github.com/lipetik/portfolio/tree/main/variational-method-project) : Implementação do Método variacional para resolver o Oscilador Harmônico e o modelo de Kronig-Penney .
 * [<ins>Relatorio-IC</ins>](https://github.com/lipetik/portfolio/tree/main/Relatorio-IC) :
-
+* [<ins> Machine Learning Bootcamp 2020</ins>](https://github.com/lipetik/portfolio/tree/main/ML_bootcamp_2020):
 
 
 ## Project list ##
@@ -21,3 +21,4 @@
 *  [<ins>kinetic-monte-carlo-method-project</ins>](https://github.com/lipetik/portfolio/tree/main/kinetic-monte-carlo-method-project) : Implementation of the kinetic Monte Carlo method in Python3 to study the phenomenon of electrical decomposition in TiS3;
 * [<ins>variational-method-project</ins>](https://github.com/lipetik/portfolio/tree/main/variational-method-project) : Implementation of the variational method to solve the Harmonic Oscillator and the Kronig-Penney model.
 * [<ins>Relatorio-IC</ins>](https://github.com/lipetik/portfolio/tree/main/Relatorio-IC) :
+* [<ins> Machine Learning Bootcamp 2020</ins>](https://github.com/lipetik/portfolio/tree/main/ML_bootcamp_2020):
