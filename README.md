@@ -15,8 +15,9 @@
 
 
 ## Project list ##
-* <ins>DFT-scripits</ins> : this are some scripts in python3 to help in the analysis of the results produced by the Quantum Espresso package that is a package used to simulate and predict properties of 2D materials);
-* <ins>Qiskit-VQE</ins> : implementation of the variational quantum eigensolver (or VQE), which is an algorithm used to calculate the ground state energy of a Hamiltonian. This algorithm is of great interest in the fields of Quantum Chemistry and Solid State Physics;
-* <ins>analise-dados-experimental</ins> : In this repository are the data analysis done in the Experimental discipline using jupyter notebooks and python3;
-* <ins>kinetic-monte-carlo-method-project</ins> : Implementation of the kinetic Monte Carlo method in Python3 to study the phenomenon of electrical decomposition in TiS3;
-* <ins>variational-method-project</ins> : Implementation of the variational method to solve the Harmonic Oscillator and the Kronig-Penney model.
+* [<ins>DFT-scripits</ins>](https://github.com/lipetik/portfolio/tree/main/DFT-scripts): this are some scripts in python3 to help in the analysis of the results produced by the Quantum Espresso package that is a package used to simulate and predict properties of 2D materials);
+* [<ins>Qiskit-VQE</ins>](https://github.com/lipetik/portfolio/tree/main/Qiskit-VQE): implementation of the variational quantum eigensolver (or VQE), which is an algorithm used to calculate the ground state energy of a Hamiltonian. This algorithm is of great interest in the fields of Quantum Chemistry and Solid State Physics;
+* [<ins>analise-dados-experimental</ins>](https://github.com/lipetik/portfolio/tree/main/analise-dados-experimental): In this repository are the data analysis done in the Experimental discipline using jupyter notebooks and python3;
+*  [<ins>kinetic-monte-carlo-method-project</ins>](https://github.com/lipetik/portfolio/tree/main/kinetic-monte-carlo-method-project) : Implementation of the kinetic Monte Carlo method in Python3 to study the phenomenon of electrical decomposition in TiS3;
+* [<ins>variational-method-project</ins>](https://github.com/lipetik/portfolio/tree/main/variational-method-project) : Implementation of the variational method to solve the Harmonic Oscillator and the Kronig-Penney model.
+* [<ins>Relatorio-IC</ins>](https://github.com/lipetik/portfolio/tree/main/Relatorio-IC) :
