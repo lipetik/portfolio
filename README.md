@@ -1,4 +1,4 @@
-# [![ezgif com-gif-maker](https://user-images.githubusercontent.com/69605680/161603933-251e088f-3b8f-4ca1-91a5-d9d5fe15061e.gif)](https://github.com/lipetik/portfolio) [Portfolio](https://github.com/lipetik/portfolio) 
+# [![ezgif com-gif-maker](https://user-images.githubusercontent.com/69605680/161603933-251e088f-3b8f-4ca1-91a5-d9d5fe15061e.gif)](https://github.com/lipetik/portfolio) [Projetos](https://github.com/lipetik/portfolio) 
 
 **Este repositório é para mostrar os alguns dos projetos em Python desenvolvidos por mim nos últimos anos.**
 
